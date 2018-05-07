@@ -1,6 +1,7 @@
 ## LineNotify_Nagios_Script
 
-add new line  vi  /etc/icinga/objects/commands.cfg 
+add new lines below it
+   vi  /etc/nagios/objects/commands.cfg 
 
 ``` # 'notify-service-by-line' command definition
 define command{
