@@ -16,7 +16,7 @@ findrecovery = readFile.find("RECOVERY")
 if (findcritical >= 0):
 
         #ACCESS_TOKEN = 'Hjs5h2QYAlsBCHVg4wE28PwoTfKny15xUa3uz59ymo2'
-        ACCESS_TOKEN = 'MtrGSegACSa0dfvlzk4MZ7e0GKHnHuvzWqbLqeJw6e3'
+        ACCESS_TOKEN = '#'
         payload = {'message': readFile}
         headers = {'Authorization': 'Bearer ' + ACCESS_TOKEN}
         r = requests.post('https://notify-api.line.me/api/notify', data=payload, headers=headers, verify=False)
@@ -25,7 +25,7 @@ if (findcritical >= 0):
 elif (findrecovery >= 0):
 
         #ACCESS_TOKEN = 'Hjs5h2QYAlsBCHVg4wE28PwoTfKny15xUa3uz59ymo2'
-        ACCESS_TOKEN = 'MtrGSegACSa0dfvlzk4MZ7e0GKHnHuvzWqbLqeJw6e3'
+        ACCESS_TOKEN = '#'
         payload = {'message': readFile}
         headers = {'Authorization': 'Bearer ' + ACCESS_TOKEN}
         r = requests.post('https://notify-api.line.me/api/notify', data=payload, headers=headers, verify=False)
