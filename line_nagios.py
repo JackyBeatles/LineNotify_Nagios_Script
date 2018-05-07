@@ -16,7 +16,7 @@ os.remove("/tmpnotify-service.txt")
 if (findcritical >= 0):
 
        
-        ACCESS_TOKEN = '#'
+        ACCESS_TOKEN = '#'   
         payload = {'message': readFile}
         headers = {'Authorization': 'Bearer ' + ACCESS_TOKEN}
         r = requests.post('https://notify-api.line.me/api/notify', data=payload, headers=headers, verify=False)

@@ -1,7 +1,7 @@
 # LineNotify_Nagios_Script
 
 
-#### add new lines below it 
+#### Open the Nagios commnad configuration add new lines below it 
 
 ``` # vi  /etc/nagios/objects/commands.cfg ```
 
@@ -12,7 +12,12 @@ define command{
         }
 ```
 
-#### copy line_nagios.py to path /etc/icinga/objects/
+#### Open the Nagios contacts configuration add new line below it 
+```
+define contact{
+      service_notification_commands   notify-service-by-line
+}
+```
 
 
 
