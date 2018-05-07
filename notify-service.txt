@@ -1,0 +1,14 @@
+***** Icinga *****
+
+Notification Type: PROBLEM
+
+Service: Current Load
+Host: sms gw server  [3.173]
+Address: 192.168.3.173
+State: RECOVERY
+
+Date/Time: Fri May 4 16:31:04 ICT 2018
+
+Additional Info:
+
+CRITICAL - load average: 24.65, 18.85, 10.28
