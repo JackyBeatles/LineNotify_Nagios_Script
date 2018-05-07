@@ -4,7 +4,7 @@
 ### add new lines below it 
 
 ``` # vi  /etc/nagios/objects/commands.cfg ```
-
+### copy line_nagios.py to path /etc/icinga/objects/
 
 
 ``` # 'notify-service-by-line' command definition
