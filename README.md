@@ -1,10 +1,10 @@
 # LineNotify_Nagios_Script
 
 
-### add new lines below it 
+#### add new lines below it 
 
 ``` # vi  /etc/nagios/objects/commands.cfg ```
-### copy line_nagios.py to path /etc/icinga/objects/
+#### copy line_nagios.py to path /etc/icinga/objects/
 
 
 ``` # 'notify-service-by-line' command definition
