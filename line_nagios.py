@@ -11,7 +11,7 @@ findcritical = readFile.find("CRITICAL")
 findrecovery = readFile.find("RECOVERY")
 
 #print(findFile)
-#os.remove("/tmpnotify-service.txt")
+os.remove("/tmpnotify-service.txt")
 
 if (findcritical >= 0):
 
