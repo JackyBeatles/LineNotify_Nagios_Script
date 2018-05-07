@@ -15,7 +15,7 @@ findrecovery = readFile.find("RECOVERY")
 
 if (findcritical >= 0):
 
-        #ACCESS_TOKEN = 'Hjs5h2QYAlsBCHVg4wE28PwoTfKny15xUa3uz59ymo2'
+       
         ACCESS_TOKEN = '#'
         payload = {'message': readFile}
         headers = {'Authorization': 'Bearer ' + ACCESS_TOKEN}
@@ -24,7 +24,7 @@ if (findcritical >= 0):
 
 elif (findrecovery >= 0):
 
-        #ACCESS_TOKEN = 'Hjs5h2QYAlsBCHVg4wE28PwoTfKny15xUa3uz59ymo2'
+        
         ACCESS_TOKEN = '#'
         payload = {'message': readFile}
         headers = {'Authorization': 'Bearer ' + ACCESS_TOKEN}
