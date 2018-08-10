@@ -18,6 +18,6 @@ define contact{
       service_notification_commands   notify-service-by-line
 }
 ```
-![image](https://user-images.githubusercontent.com/1269261/39694725-7ed1869e-5212-11e8-9549-589f75435d5e.png)
+
 
 
